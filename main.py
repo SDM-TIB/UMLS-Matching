@@ -30,5 +30,5 @@ def get_cui_id(label):
                 return row[0]
     
 def get_cui_label(id):
-  if label in CUIs
+  if id in CUIs
     return CUIs[id]    
