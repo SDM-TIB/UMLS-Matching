@@ -14,8 +14,9 @@ for cui in cuis:
     
     
 def get_cui_id(label):
-  if label in CUIsLabel
-    return CUIsLabel[label]
+    label=laberl.lower().strip().replace('_',' ')
+    if label in CUIsLabel
+        return CUIsLabel[label]
     
 def get_cui_label(id):
   if label in CUIs
